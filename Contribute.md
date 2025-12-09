@@ -13,6 +13,16 @@
 
 
 ## Docker Installation
+ - Install Docker
+ - Start the DB 
+    - docker run -e POSTGRES_PASSWORD=random -d -p 5432:5432 postgres
+ - Build the Image
+    - `docker build -t user_project .`
+ - Start the Image
+    - `docker run -p 3000:3000 user-project`
 
 
 ## Docker Compose Installation
+ - Install docker , docker compose
+ - Run
+    - `docker-compose up`
